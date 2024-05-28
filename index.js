@@ -22,6 +22,7 @@ async function submitSendForm(times = 1, time = 0, timeBetween = 0) {
             await wait(timeBetween)
         }
         sendButton.click()
+        log("round", index)
     }
 }
 
