@@ -1,0 +1,42 @@
+.bot-button {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    z-index: 1000000 !important;
+    background-color: black !important;
+    color: gold !important;
+    visibility: visible !important;
+    padding: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+.bot-form {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0;
+    left: 0;
+    z-index: 1000002 !important;
+    background-color: black !important;
+    color: gold !important;
+    visibility: visible !important;
+    padding: 10px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.bot-form button,
+.bot-form input {
+    background-color: gold !important;
+    color: black !important;
+    padding: 10px !important;
+    margin: 5px !important;
+    border-radius: 5px;
+    border: none;
+}
+
+.invisible {
+    display: none !important;
+}

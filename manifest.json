@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Whatsapp Send Bot",
+    "description": "Can send Whatsapp messages.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "js": [
+                "index.js"
+            ],
+            "css": [
+                "index.css"
+            ],
+            "matches": [
+                "*://*.whatsapp.com/*"
+            ]
+        }
+    ]
+}
